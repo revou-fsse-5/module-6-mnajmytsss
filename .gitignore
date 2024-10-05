@@ -1,0 +1,62 @@
+# Bytecode dan file Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Lingkungan virtual
+env/
+venv/
+ENV/
+.venv/
+
+# File konfigurasi editor/IDE
+.vscode/
+.idea/
+
+# File dan folder terkait MacOS
+.DS_Store
+
+# File log dan temporary
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# File database SQLite lokal (jika menggunakan SQLite untuk pengembangan)
+*.sqlite3
+*.db
+
+# File environment untuk Flask (contoh: .env)
+.env
+.env.*
+
+# Folder build dan distribusi (jika ada)
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# File Jupyter Notebook checkpoint (jika menggunakan Jupyter untuk debugging)
+.ipynb_checkpoints/
+
+# Coverage dan testing
+htmlcov/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Folder cache npm, node_modules (jika menggunakan JavaScript atau NodeJS)
+node_modules/
+
+# File lock dependencies
+Pipfile.lock
+yarn.lock
+package-lock.json
